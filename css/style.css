@@ -1,7 +1,6 @@
 /* Hlavní styly */
 
 body {
-    /*background-color: rgb(0, 250, 154);*/
     background-color: rgb(238, 168, 110);
 }
 
@@ -41,13 +40,18 @@ p {
 
 nav.navbar-dark {
     background-color: rgb(80, 0, 4) !important;
-    /*background-image: url(../img/klaviatura1.png);*/
 }
 
 nav.klav {
     background-image: url(../img/klaviatura1.png);
     background-size: auto;
     background-position-y: -10px;
+}
+
+.zdar {
+    color: rgb(80, 0, 4);
+    text-align: center;
+    font-size: 2.5vw;
 }
 
 
@@ -138,16 +142,8 @@ figcaption {
     width: 80%;
 }
 
-.pravo {
-    float: right;
-}
-
-.levo {
-    float: left;
-}
-
-.table {
-    display: table-cell;
+.venovaniButtonNav {
+    border: blue !important;
 }
 
 
@@ -160,6 +156,7 @@ figcaption {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /*height: 600px;*/
     height: 600px;
     background-attachment: fixed;
 }
@@ -177,34 +174,6 @@ figcaption {
     background-image: url("../img/hra_na_akordeon.jpg");
 }
 
-.pozadi-rights {
-    background-image: url("../img/prava.png");
-}
-
-
-/*------------------------------------------------------------------------------------------------------*/
-
-
-/* CSS ID */
-
-#pro_vas {
-    text-align: center;
-    color: blue;
-    font-size: 3em;
-    border: dashed 3px blue;
-}
-
-#border {
-    border: dashed 3px blue;
-}
-
-#socha-text {
-    text-align: center;
-    color: blue;
-    font-size: 2em;
-    border: dashed;
-}
-
 
 /*------------------------------------------------------------------------------------------------------*/
 
@@ -213,46 +182,6 @@ figcaption {
 
 a:hover {
     color: red !important;
-}
-
-
-/*------------------------------------------------------------------------------------------------------*/
-
-
-/* Tabulka */
-
-table {
-    table-layout: auto;
-    text-align: center;
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    border: blue 3px double;
-    width: 100%;
-}
-
-th {
-    font-size: 20px;
-}
-
-
-/*
-th {
-    font-size: 20px;
-}
-
-td {
-    border: solid 3px blue;
-}
-
-td th {
-    border: 3px solid blue;
-    text-align: left;
-    padding: 8px;
-}
-*/
-
-tr:nth-child(even) {
-    background-color: lightblue;
 }
 
 
